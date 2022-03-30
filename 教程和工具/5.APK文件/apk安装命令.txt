@@ -1,0 +1,25 @@
+adb push xxx.apk /data/local/tmp/
+echo 应用程序安装中……
+adb shell /system/bin/pm install -t -r /data/local/tmp/xxx.apk
+
+或者直接从电脑本地安装软件，-r表示覆盖安装
+adb install -r xxx.apk
+可以安装一个x-plorer软件，之后的软件都可以通过x-plorer的局域网共享里直接安装
+
+adb shell settings put secure install_non_market_apps 1
+删除命令
+adb shell /system/bin/pm  uninstall --user 0 com.phicomm.speaker.airskill
+
+查看安装的包
+adb shell pm list packages -f
+
+停用安装包
+安装到r1上后，因为配置和跟原本的语音助手冲突的原因，会出现卡顿和唤醒不出。
+执行以下命令来停用斐讯全家桶
+.\adb shell am force-stop com.phicomm.speaker.launcher
+.\adb shell am force-stop com.phicomm.speaker.productiontest
+.\adb shell am force-stop com.phicomm.speaker.bugreport
+.\adb shell am force-stop com.phicomm.speaker.otaservice
+.\adb shell am force-stop com.phicomm.speaker.player
+.\adb shell am force-stop com.phicomm.speaker.device
+之后就能跟小爱愉快的对话了。

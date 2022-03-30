@@ -1,0 +1,10 @@
+1.设置ntp服务器
+$ adb connect 192.168.x.x 
+$ adb shell settings put global ntp_server asia.pool.ntp.org
+
+# test
+$ adb shell settings get global ntp_server 
+
+#执行shell命令
+$adb shell "date"
+

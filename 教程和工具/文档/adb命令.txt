@@ -1,0 +1,13 @@
+1.设置ntp服务器
+$ adb connect 192.168.x.x 
+$ adb shell settings put global ntp_server asia.pool.ntp.org
+
+# test
+$ adb shell settings get global ntp_server 
+
+删除小爱
+adb shell /system/bin/pm  uninstall com.xiaomi.xiaoailite
+
+列出进程
+adb shell " ps "
+

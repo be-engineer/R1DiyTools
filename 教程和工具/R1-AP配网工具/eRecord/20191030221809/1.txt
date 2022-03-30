@@ -1,0 +1,42 @@
+1
+&
+网页_访问
+&
+POST
+&
+192.168.43.1:8989/api/configwifi
+&
+文本
+&
+{"ssid":"myhome_5","mac":"60:45:cb:67:ea:0c","level":3,"secure":"WPA","password":"LjwGqh2012*#"}
+&
+null
+&
+null
+&
+null
+&
+正常
+&
+null
+&
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Server: Jetty(i-jetty 5.1.1-3331)
+
+
+&
+正常返回
+&
+{"device_id":"0098BB9948E36DA72917F525","device_type":"phicomm_echo","hardware_version":"V3.0.0","model":"R1","rom_version":"1.0.0.3331","udid":"LTEzNDgzNzYzMzgwMDk4QkI5OTQ4RTM2RA"}
+&
+null
+&
+null
+&
+D:\temp\Phicomm_R1_packet\R1-AP配网工具\eRecord\20191030221809\1.txt
+&
+2019-10-30 22:19:57
+&
+0

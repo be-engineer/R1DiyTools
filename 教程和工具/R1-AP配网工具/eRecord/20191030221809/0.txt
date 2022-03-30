@@ -1,0 +1,42 @@
+0
+&
+网页_访问
+&
+POST
+&
+192.168.43.1:8989/api/getwifilist
+&
+文本
+&
+{"page_size":30,"page_number":1}
+&
+null
+&
+null
+&
+null
+&
+正常
+&
+null
+&
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Server: Jetty(i-jetty 5.1.1-3331)
+
+
+&
+正常返回
+&
+{"total":35,"data":[["myhome_5","60:45:cb:67:ea:0c",3,"WPA"],["myhome","60:45:cb:67:ea:08",3,"WPA"],["CMCC-toyellow","50:8c:f5:7d:f2:77",3,"WPA"],["LEDE","ec:26:ca:49:b2:62",3,"WPA"],["LEDE","ee:26:ca:49:b2:61",3,"WPA"],["@PHICOMM_70","00:6b:8e:df:fd:78",2,"WPA"],["abc100_t","00:16:78:28:c3:b4",2,"WPA"],["ChinaNet-2.4G-F9F2","2c:61:04:7f:f9:f2",2,"WPA"],["ChinaNet-t5ik","18:52:07:8c:d0:e0",2,"WPA"],["383","c8:3a:35:83:cf:d1",2,"WPA"],["CMCC-QxFr","c4:33:06:c9:90:d8",2,"WPA"],["CMCC-v3hj","3c:fb:5c:50:85:47",2,"WPA"],["HiWiFi_61580C","d4:ee:07:61:58:0c",2,"WPA"],["TO YELLOW","0c:72:2c:50:dc:6a",2,"WPA"],["CMCC-MVq9","60:de:f3:15:0d:dc",2,"WPA"],["CMCC-2r77","ac:71:0c:59:6c:1f",1,"WPA"],["ChinaNet-wQdm","8c:6d:77:9e:21:28",1,"WPA"],["CMCC-2EFg","08:9c:86:11:6c:54",1,"WPA"],["@PHICOMM_201","fc:7c:02:58:61:b7",1,"WPA"],["ChinaNet-RsEd","9c:1d:36:1e:61:84",1,"WPA"],["Xiaomi_J","f0:b4:29:50:dc:69",1,"WPA"],["TP-LINK_9216","dc:fe:18:81:92:16",1,"WPA"],["TP-LINK_9347","b8:f8:83:e0:93:47",1,"WPA"],["TP-LINK_649A","80:89:17:da:64:9a",1,"WPA"],["DIRECT-ZADESKTOP-BGLNI53msTB","fa:94:c2:db:ea:de",1,"WPA"],["Tenda_3C87C0","c8:3a:35:3c:87:c0",1,"WPA"],["ChinaNet-4Q9b","0c:41:e9:12:b0:7c",1,"WPA"],["ChinaNet-YzyM","9c:1d:36:18:f8:80",1,"WPA"],["ChinaNet-QnQc","18:13:2d:96:bd:38",1,"WPA"],["@PHICOMM_70_5G","00:6b:8e:df:fd:80",1,"WPA"]]}
+&
+null
+&
+null
+&
+D:\temp\Phicomm_R1_packet\R1-AP配网工具\eRecord\20191030221809\0.txt
+&
+2019-10-30 22:18:09
+&
+0
